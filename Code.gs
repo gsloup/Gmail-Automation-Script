@@ -10,6 +10,7 @@ function autoDeleteOldEmails() {
     const searchQuery = `${category} before:${formattedDate}`;
     const threads = GmailApp.search(searchQuery);
 
+    // Any email returned from your searchQuery will be moved to your "trash".  Any email moved to that folder will auto-erase after 30 days.
     threads.forEach(thread => {
       thread.moveToTrash();
     });
