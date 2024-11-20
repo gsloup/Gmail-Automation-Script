@@ -22,11 +22,15 @@ This script will purge/delete any Social or Promotions Categories emails older t
   * Click "Review Permissions"
   * Select your Google Account
   * Click "Allow"
- 
+* You'll next get a "Google hasn't verified this app" message
+   * Click on the "Advanced" link
+   * Click "Go to {Apps Script Project Name} (unsafe)"
+   * "{Apps Script Project Name} wants to access your Google Account" - click "Allow"
+
 ### Step 5: Set up a Trigger/Cron
 * On the left hand menu, click on "Triggers"
 * Click "Add Trigger"
-  * `Choose which function to run: { yourFunctionName }`
+  * `Choose which function to run: {yourFunctionName}`
   * `Deployment: Head`
   * `Event Source: Time-driven` (Feel free to set the frequency as you choose.  I'm choosing once a week)
   * `Type of Time-based Trigger: Week timer`
