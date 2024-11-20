@@ -1,5 +1,5 @@
 function autoDeleteOldEmails() {
-  // Categories to clean up
+  // Categories to clean up.  Can test your listed categories in your gmail's search bar
   const categories = ["category:social", "category:promotions"];
   const date = new Date();
   date.setMonth(date.getMonth() - 3); // Emails older than 3 months
