@@ -1,10 +1,8 @@
 # Gmail-Automation-Script
-This script helps automate the management of my gmail inbox.  Feel free to use it! 🤠
-
 ## How to use this code
 This script will purge/delete any Social or Promotions Categories emails older than 3 months old.  I'll be adding to this function on my personal script to further delete specific, data sensitive emails.
 > [!WARNING]  
-> Writing scripts to delete data comes with a risk.  Double check your script and check your "Trash" folder after running any script to check for your script's accuracy
+> Writing scripts to delete data comes with a risk.  Double check your script and check your "Trash" folder after running any script to check for your script's accuracy.  Any deleted email will remain in your "Trash" for 30 days.
 
 ### Step 1: Open Google Apps Script
 * https://script.google.com/home
