@@ -1,4 +1,5 @@
 # Gmail-Automation-Script
+See Video Here: https://youtu.be/hdxahLdvDag
 ## How to use this code
 This script will purge/delete any Social or Promotions Categories emails older than 3 months old.  I'll be adding to this function on my personal script to further delete specific, data sensitive emails.
 > [!WARNING]  
